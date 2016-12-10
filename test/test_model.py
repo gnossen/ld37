@@ -45,3 +45,12 @@ def test_model_seed():
     plant = Plant(seed=seed)
     assert plant.stem_length == expected_value
     assert plant.petal_length == 4
+
+def test_random_selection():
+    name = RandomSelection([
+        (1, "Mark"),
+        (2, "John"),
+        (3, "James")
+    ])
+    # for i in range(20):
+    #     print name()
