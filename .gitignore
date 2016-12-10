@@ -1,3 +1,5 @@
 venv/
 todo.yml
 *.swp
+*.pyc
+**/__pycache__/
